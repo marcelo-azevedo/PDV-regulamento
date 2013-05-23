@@ -1,0 +1,156 @@
+body {
+  width: 100%;
+  *zoom: 1;
+}
+body:before,
+body:after {
+  content: "";
+  display: table;
+}
+body:after {
+  clear: both;
+}
+header {
+  width: 960px;
+  margin: 0 auto;
+  *zoom: 1;
+  color: #505050;
+  font-family: arial;
+  height: 90px;
+}
+header:before,
+header:after {
+  content: "";
+  display: table;
+}
+header:after {
+  clear: both;
+}
+header #logo-reg {
+  width: 200px;
+  height: 65px;
+  background: url(../img/regulameto/logo-reg.jpg) no-repeat;
+  float: left;
+  margin-top: 15px;
+}
+header nav {
+  float: left;
+  width: 760px;
+}
+header nav ul {
+  *zoom: 1;
+}
+header nav ul:before,
+header nav ul:after {
+  content: "";
+  display: table;
+}
+header nav ul:after {
+  clear: both;
+}
+header nav ul li a {
+  float: left;
+  height: 20px;
+  padding: 1px 0 0 18px;
+  background: url(../img/regulameto/icons.png) no-repeat 0 0;
+  font-size: 18px;
+  color: #505050;
+  text-decoration: none;
+  margin-right: 28px;
+  margin-top: 25px;
+  transition-duration: 0.2s;
+  transition-timing-function: linear;
+  -webkit-transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+}
+header nav ul li a:hover {
+  color: #ff9c00;
+}
+section#banner-reg {
+  width: 1035px;
+  margin: 0 auto;
+  *zoom: 1;
+  color: #505050;
+  font-family: arial;
+  height: 296px;
+  background: url(../img/regulameto/banner-reg.jpg) no-repeat;
+}
+section#banner-reg:before,
+section#banner-reg:after {
+  content: "";
+  display: table;
+}
+section#banner-reg:after {
+  clear: both;
+}
+section#conteudo {
+  width: 950px;
+  margin: 0 auto;
+  *zoom: 1;
+  color: #505050;
+  font-family: arial;
+  background: url(../img/regulameto/imagem-principal.jpg) no-repeat top right;
+  margin-bottom: 30px;
+}
+section#conteudo:before,
+section#conteudo:after {
+  content: "";
+  display: table;
+}
+section#conteudo:after {
+  clear: both;
+}
+section#conteudo section {
+  *zoom: 1;
+  width: 440px;
+  margin-top: 30px;
+}
+section#conteudo section:before,
+section#conteudo section:after {
+  content: "";
+  display: table;
+}
+section#conteudo section:after {
+  clear: both;
+}
+section#conteudo section h1 {
+  font-size: 25px;
+  font-weight: bold;
+  border-bottom: 3px solid #000;
+  margin: 32px 0 30px 81px;
+  text-align: right;
+}
+section#conteudo section p {
+  text-align: justify;
+}
+section#conteudo section#regulamento-reg {
+  background: url(../img/regulameto/bola1.jpg) no-repeat top left;
+}
+section#conteudo section#regulamento-reg h1 {
+  color: #28afe0;
+  border-color: #28afe0;
+}
+section#conteudo section#reservar-reg {
+  background: url(../img/regulameto/bola2.jpg) no-repeat top left;
+}
+section#conteudo section#reservar-reg h1 {
+  color: #ff9c00;
+  border-color: #ff9c00;
+}
+section#conteudo section#atencao-reg {
+  background: url(../img/regulameto/bola3.jpg) no-repeat top left;
+  width: 950px;
+}
+section#conteudo section#atencao-reg h1 {
+  color: #ff0000;
+  border-color: #ff0000;
+  text-align: center;
+}
+section#conteudo section#atencao-reg article {
+  background-color: #f0484f;
+  padding: 20px 22px;
+  border: 2px solid #fff;
+  color: black;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.5);
+}

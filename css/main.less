@@ -1,0 +1,142 @@
+@import url(grid.less);
+
+@Ctexto: #505050;
+
+@azul: #28afe0;
+
+@laranja: #ff9c00;
+
+@vermelho: #ff0000;
+
+.center(@larg){
+    width: @larg;
+    margin: 0 auto;
+    .clearfix();
+    color: @Ctexto;
+    font-family: arial;
+}
+
+header{
+    .center(960px);
+    height: 90px;
+
+    #logo-reg{
+        width: 200px;
+        height: 65px;
+        background: url(../img/regulameto/logo-reg.jpg) no-repeat;
+        float: left;
+        margin-top: 15px;
+
+    }
+
+    nav{
+        float: left;
+        width: 760px;
+        ul{
+            .clearfix();
+            li{
+
+                a{
+                    float: left;
+                    height: 20px;
+                    padding: 1px 0 0 18px;
+                    background: url(../img/regulameto/icons.png) no-repeat 0 0;
+                    font-size: 18px;
+                    color: @Ctexto;
+                    text-decoration: none;
+                    margin-right: 28px;
+                    margin-top: 25px;
+                    transition-duration: 0.2s;
+                    transition-timing-function: linear;
+                    -webkit-transition-duration: 0.2s;
+                    -webkit-transition-timing-function: linear;
+
+                    &:hover{
+                        color: @laranja
+
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+section#banner-reg{
+    .center(1035px);
+    height: 296px;
+    background: url(../img/regulameto/banner-reg.jpg) no-repeat;
+}
+
+section#conteudo{
+    .center(950px);
+    background: url(../img/regulameto/imagem-principal.jpg) no-repeat top right;
+    margin-bottom: 30px;
+
+    section{
+        .clearfix();
+        width: 440px;
+        margin-top: 30px;
+
+        h1{
+            font-size: 25px;
+            font-weight: bold;
+            border-bottom: 3px solid #000;
+            margin: 32px 0 30px 81px;
+            text-align: right;
+        }
+
+        p{
+            text-align: justify;
+        }
+
+        &#regulamento-reg{
+            background: url(../img/regulameto/bola1.jpg) no-repeat top left;
+            h1{
+                color: @azul;
+                border-color: @azul;
+            }
+        }
+
+        &#reservar-reg{
+            background: url(../img/regulameto/bola2.jpg) no-repeat top left;
+            h1{
+                color: @laranja;
+                border-color: @laranja;
+            }
+        }
+
+        &#atencao-reg{
+            background: url(../img/regulameto/bola3.jpg) no-repeat top left;
+            width: 950px;
+            h1{
+                color: @vermelho;
+                border-color: @vermelho;
+                text-align: center;
+            }
+
+            article{
+                background-color: #f0484f;
+                padding: 20px 22px;
+                border: 2px solid #fff;
+                color: black;
+                -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.5);
+                box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.5);
+            }
+        }
+
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
